@@ -411,3 +411,225 @@ padding: 10px 0;
   font-weight: bold;
 }
 
+@media only screen and (max-width: 768px) {
+  #cont{
+    width:100vw;
+    height: 100vh;
+    flex-direction: column;
+    overflow-x:hidden;
+  }
+  #hero{
+    width:100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0px;
+    margin-bottom: 27rem;
+  }
+  #heroWrapper{
+    flex-direction: column;
+    width:100%;
+    height: 100%;
+  }
+  #heroLeft{
+    flex:1;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  #heroRight{
+    width:98%;
+    height: 90%;
+  }
+  #heroImg{
+    width: 300px;
+    height: 300px;
+  }
+  #heroLeftMaintxt{
+    font-size: 3rem;
+  }
+  #heroLeftOtherTxt{
+    font-size: 1.5rem;
+    line-height: 80px;
+  }
+
+  #about{
+    margin-bottom: 18rem;
+    width:100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 30px;
+  }
+  
+  #aboutMainTxt{
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  #aboutWrap{
+    width: 100%;
+    height: 100%;
+   flex-direction: column;
+  }
+  
+  #aboutLeft,#aboutRight{
+  width:90%;
+  height: 90%;
+  }
+  
+  #aboutPara{
+    width: 90%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 50px;
+  }
+
+  #project{
+    margin-top: 7rem;
+  }
+
+  .projectWrap{
+    height: 100%;
+    width: 98%;
+    flex-direction: column;
+    flex-wrap:nowrap;
+  }
+  #projectImgWrap{
+    width: 90%;
+    height: 70%;
+    margin-bottom: 50px;
+    }
+    #projectImgWrap:hover {
+      transform: scale(1);
+      opacity: 0.9;
+    }
+    #contact{
+      padding: 5px;
+    }
+    
+    #contactLeft{
+      width: 90%;
+      height: 70%;
+      justify-content: center;
+      align-items:center;
+      flex-direction: column;
+    }
+    
+    #input{
+      padding: 15px;
+      width: 90%;
+      height: 70%;
+      font-size: 1.1rem;
+    }
+    
+    #input:focus {
+      outline: none;
+      border: none;
+    }
+    
+    #input::placeholder {
+      color: black;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    
+    #submit{
+      height:5rem;
+      font-size:1.5rem;
+      margin-top: 3rem;
+      width:90%;
+    }
+    
+    #socialIcons{
+      margin-top: 4rem;
+      width:85%;
+      height:6rem;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .socialIcon{
+      width: 50px;
+      height: 50px;
+    }
+    
+    .socialIcon:hover{
+      transform: scale(1.2);
+    }
+    
+    .socialIcon:hover .socialsInfo{
+      transform: scale(1.2);
+      display: flex;
+    }
+    
+    .socialIcon:hover .socialsInfo .socialsInfoTxt{
+     font-size: 7px;
+     font-weight: bold;
+    }
+    
+    .socialsInfo{
+      display: none;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      right: 1px;
+      bottom: -70px;
+      width: 5rem;
+      height: 3rem;
+      border: 0.8px solid rgb(206, 87, 206);
+      border-radius: 10px;
+    }
+    
+    .github{
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      bottom: -70px;
+      width: 15rem;
+      height: 3rem;
+      border: 0.8px solid rgb(206, 87, 206);
+      border-radius: 10px;
+    }
+    
+    .github:hover{
+      transform: scale(1.3);
+    }
+    
+    .socialsInfoTxt{
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    }
+
+    #projectCont{
+      gap:60px;
+      width:100%;
+      height: 80%;
+    }
+    
+    #projectDescription{
+      width:90%;
+      font-size: 1.5rem;
+      line-height: 50px;
+    }
+    
+    #ProjectLinks{
+      margin-top: 2rem;
+      width:60%;
+      height:6rem;
+      margin-bottom: 10rem;
+    }
+
+}
+
+@media only screen and (max-width: 370px) {
+  
+  #hero{
+    margin-bottom: 13rem;
+  }
+  #project{
+    margin-top: 27rem;
+  }
+}
+

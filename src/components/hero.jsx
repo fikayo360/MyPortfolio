@@ -18,7 +18,7 @@ function Hero(){
             </p>
         </div>
         <div id='heroRight'>
-        <Canvas>
+        <Canvas id='canvas'>
             <Suspense fallback={null}>
               <OrbitControls enableZoom={false} />
               <ambientLight intensity={1.3} />
