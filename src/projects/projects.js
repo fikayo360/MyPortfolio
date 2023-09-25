@@ -12,7 +12,8 @@ export const projects = [
         images:[
             "./img/foodbae1.jpg",
             "./img/foodbae2.jpg",
-            "./img/foodbae2.jpg"
+            "./img/foodbae3.jpg",
+            "./img/foodbae4.jpg"
         ]
     },
     {
@@ -34,7 +35,9 @@ export const projects = [
         images:[
             "./img/chirp1.jpg",
             "./img/chirp2.jpg",
-            "./img/chirp2.jpg"
+            "./img/chirp3.jpg",
+            "./img/chirp4.jpg",
+            "./img/chirp5.jpg",
         ]
     },
     {
@@ -56,7 +59,8 @@ export const projects = [
         images:[
             "./img/vidme1.jpg",
             "./img/vidme2.jpg",
-            "./img/vidme2.jpg"
+            "./img/vidme3.jpg",
+            "./img/vidme4.jpg",
         ]
     }
 ]
