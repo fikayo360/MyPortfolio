@@ -23,7 +23,7 @@ return (
                 </p>
             </div>
             <div id='aboutRight'>
-                 
+                   <img id='aboutRightImg' src="./img/mkrem.png" />
             </div>
         </div> 
     </div>
