@@ -258,9 +258,9 @@ font-weight:bold;
 #submit{
   justify-content: center;
   align-items: center;
-  height:5rem;
+  height:4.5rem;
   border: none;
-  font-size:1.5rem;
+  font-size:1.4rem;
   font-weight: bold;
   border-radius:7;
   margin-top: 3rem;
@@ -546,9 +546,10 @@ padding: 10px 0;
     
     #input{
       padding: 15px;
-      width: 90%;
-      height: 70%;
+      width: 80%;
+      height: 60%;
       font-size: 1.1rem;
+      border-radius: 3px;
     }
     
     #input:focus {
@@ -559,14 +560,14 @@ padding: 10px 0;
     #input::placeholder {
       color: black;
       font-weight: bold;
-      font-size: 20px;
+      font-size: 1.2rem;
     }
     
     #submit{
-      height:5rem;
-      font-size:1.5rem;
+      height:4.5rem;
+      font-size:1.2rem;
       margin-top: 3rem;
-      width:90%;
+      width:80%;
     }
     
     #socialIcons{
