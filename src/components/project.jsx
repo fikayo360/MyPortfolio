@@ -25,10 +25,7 @@ function Project(){
             <Link to={data.github} as="div" className='socialIcon'>
             <img className='socialIconImg' src="./img/github.png" />
             </Link>
-            <div className='socialIcon'>
-            <img className='socialIconImg' src="./img/link.png" />
-            <div className='socialsInfo'><h className='socialsInfoTxt'>@fikayo</h></div>
-            </div>
+           
             </div>
        </div>
     )

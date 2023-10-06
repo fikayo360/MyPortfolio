@@ -13,8 +13,10 @@ function Hero(){
                 FIKAYO
             </h1>
            
-            <p id='heroLeftOtherTxt'> i help businesses and companies reach their goals by designing and developing 
-                user centric digital products and experiences
+            <p id='heroLeftOtherTxt'> 
+            I am a full-stack developer with experience in building and deploying web applications. 
+            I am passionate about creating beautiful and functional websites and mobile apps that help businesses grow online
+            I am always looking for new challenges and opportunities to learn and grow. I am confident that I have the skills and experience to help you achieve your business goals
             </p>
         </div>
         <div id='heroRight'>

@@ -10,8 +10,9 @@ const [text] = useTypewriter({
 
 return (
     <div id='about'>
-        <h1 id='aboutMainTxt'> aboutme</h1>
+              <h1 id='aboutMainTxt'> aboutme</h1>
         <div id='aboutWrap'>
+      
             <div id='aboutLeft'>
                 <h1 id='aboutSkills'>{`## ${text} ##`}</h1>
                 <p id='aboutPara'>
