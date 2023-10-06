@@ -450,7 +450,7 @@ padding: 10px 0;
     align-items: center;
     justify-content: center;
     padding: 5px 0px;
-    margin-bottom: 7rem;
+    margin-bottom: 14rem;
   }
   #heroWrapper{
     flex-direction: column;
@@ -466,11 +466,11 @@ padding: 10px 0;
   }
   #heroRight{
     width:98%;
-    height: 65%;
+    height: 75%;
   }
   #heroImg{
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
   }
   #heroLeftMaintxt{
     font-size: 3rem;
@@ -664,7 +664,7 @@ padding: 10px 0;
       margin-top: 2rem;
       width:60%;
       height:6rem;
-      margin-bottom: 10rem;
+      margin-bottom: 5rem;
     }
     .carousel{
       width:98%;
