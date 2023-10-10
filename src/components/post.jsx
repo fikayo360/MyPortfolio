@@ -1,5 +1,6 @@
 import './blogHome.css'
 import moment from "moment";
+import { Link } from 'react-router-dom'
 
 const Post = ({data}) => {
     
@@ -12,7 +13,7 @@ const Post = ({data}) => {
       }
 
     return (
-        <div id="singleBlogComponent">
+         <Link id="singleBlogComponent" to="/blogTopic" as="div">
                     <div id="blogComponentLeft">
                         <span id="blogComponentLeftDate">
                             {moment(data.createdAt.slice(0,10)).format("MMMM Do, YYYY")}
@@ -29,7 +30,7 @@ const Post = ({data}) => {
                         <img id="imgg" src={data.postImg} />
                      </div>
                     </div>
-                </div> 
+                </Link>
     )
 }
 

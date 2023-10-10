@@ -3,6 +3,7 @@ import './blogHome.css'
 import { useState,useEffect } from 'react';
 import Post from './post';
 
+
 const BlogHome = () => {
     const [posts,setPosts] = useState([])
 

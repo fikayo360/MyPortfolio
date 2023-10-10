@@ -55,8 +55,8 @@
   position: relative;
 }
 #heroImg{
-  width: 500px;
-  height: 500px;
+  width: 350px;
+  height: 350px;
   object-fit: contain;
   position: absolute;
   top: 0;
