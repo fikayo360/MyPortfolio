@@ -28,7 +28,7 @@ const BlogHome = () => {
             <div id="header">
                 <span >FIKAYO'S DIGEST</span>
                 <div id="headerRight">
-                
+                <img id='spanner' src="./img/spanner.png" />
                 </div>
             </div>
 

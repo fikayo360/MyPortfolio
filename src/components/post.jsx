@@ -13,7 +13,7 @@ const Post = ({data}) => {
       }
 
     return (
-         <Link id="singleBlogComponent" to="/blogTopic" as="div">
+         <Link id="singleBlogComponent" to="/blogTopic" as="div" state={{ postData:data }}>
                     <div id="blogComponentLeft">
                         <span id="blogComponentLeftDate">
                             {moment(data.createdAt.slice(0,10)).format("MMMM Do, YYYY")}
