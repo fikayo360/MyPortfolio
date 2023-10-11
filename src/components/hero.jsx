@@ -36,7 +36,7 @@ function Hero(){
             </Suspense>
           </Canvas>
 
-          <img id='heroImg' src="./img/char3.png" />
+          <img id='heroImgg' src="./img/char3.png" />
         </div>
         
         </div>

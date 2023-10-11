@@ -36,8 +36,20 @@
     padding-bottom: 5px;
 }
 
-.navListItems:hover{
+.navListItems:active{
     font-weight: bold;
     font-size: 1.6rem;
     border-bottom: 2px solid rgb(128, 42, 128);
 }
+
+/* .listClass a:visited{
+    font-weight: bold;
+    font-size: 1.6rem;
+    border-bottom: 2px solid rgb(128, 42, 128);
+} */
+
+/* .navListItems:hover{
+    font-weight: bold;
+    font-size: 1.6rem;
+    border-bottom: 2px solid rgb(128, 42, 128);
+} */
