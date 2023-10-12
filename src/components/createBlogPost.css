@@ -1,0 +1,168 @@
+#createWrap{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 2rem;
+    z-index: 2;
+}
+
+#createHeader{
+    width:100%;
+    height:5%;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 0.5px solid black;
+    padding: 10px;
+}
+
+#createHeader span{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#createSpanner{
+    width: 30px;
+    height: 30px;
+    margin-right: 35px;
+}
+
+.authWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 3;
+    background-color:#131212;
+    opacity: 0.9;
+}
+
+#authContainer{
+    width: 35%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3.5rem;
+    border: 0.5px solid grey;
+    border-radius: 8px;
+    background-color: #ffff;
+    z-index: 8;
+}
+
+#authForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 85%;
+    text-align: center;
+}
+#authContainer #authForm h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 2rem;
+}
+ 
+.hide{
+    display: none;
+}
+
+#authForm .inputs{
+    width: 80%;
+    height: 3rem;
+    padding: 5px;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+ #authFormSubmit{
+    width: 82%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(110, 43, 173);
+    font-size: 1.5rem;
+    color: #ffff;
+    font-weight: bold;
+ }
+
+ #authFormSubmit:hover{
+    background-color: rgb(99, 11, 182);
+ }
+
+#error{
+    font-size: 1.2rem;
+    color: red;
+    margin-bottom:2rem;
+}
+
+#not{
+    font-size: 1.2rem;
+    color: rgb(6, 119, 40);
+    margin-bottom:2rem;
+}
+
+#createBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#createBody h1{
+    margin-bottom: 4rem;
+}
+
+#createBody form{
+    display: flex;
+    width:90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#createBody input{
+    width: 70%;
+    height: 4rem;
+    padding: 7px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+#createBody textarea{
+    width: 70%;
+    height: 16rem;
+    padding: 7px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+#createBody button{
+    width: 72%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(110, 43, 173);
+    font-size: 1.5rem;
+    color: #ffff;
+    font-weight: bold;
+}
+
+#createBody button:hover{
+    background-color: rgb(99, 11, 182);
+ }

@@ -18,6 +18,7 @@
     "@react-three/postprocessing": "^2.15.1",
     "autotyping": "^1.2.6",
     "axios": "^1.5.1",
+    "cloudinary-react": "^1.8.1",
     "moment": "^2.29.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
