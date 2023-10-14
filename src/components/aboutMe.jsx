@@ -14,7 +14,7 @@ return (
         <div id='aboutWrap'>
       
             <div id='aboutLeft'>
-                <h1 id='aboutSkills'>{`## ${text} ##`}</h1>
+                <h1 id='aboutSkills'>{`# ${text} #`}</h1>
                 <p id='aboutPara'>
                     i am a full stack developer with a passion for buliding beautiful and functional mobile and web applications. I have got 3 years of experience 
                     in the tech industry.

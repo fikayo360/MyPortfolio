@@ -33,7 +33,7 @@ const BlogHome = () => {
             </div>
 
             <div id="blogHero">
-                <h1 id="blogHeroH"> hi i am fikayo! welcome to my world</h1>
+                <h1 id="blogHeroH"> FIKAYO'S ENGINEERING BLOG</h1>
                 <p id="blogHeroP">I'm a software developer with a passion for building useful and innovative products. 
                 I'm also a big fan of open source software and sharing knowledge with others.</p>
             </div>

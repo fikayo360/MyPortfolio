@@ -1,0 +1,64 @@
+.navMobile{
+    height: 100%;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    z-index: 3;
+    background-color: black;
+}
+
+#navMhead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8%;
+    width: 100%;
+    border-bottom: 0.5px solid gray;
+    padding: 4px;
+}
+
+#navHtxt{
+    font-family: 'Young Serif', serif;
+    font-size: 1.5rem;
+}
+
+#navimCgCont{
+    display: block;
+    width: 1.6rem;
+    height: 1.6rem;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+#navclose{
+    width: 100%;
+    height: 100%;
+}
+
+#navMBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+}
+
+#navMBList{
+    justify-content: space-between;
+    gap: 90px;
+    height: 80%;
+}
+
+.navMBListItems{
+    font-family: 'Young Serif', serif;
+    list-style-type: none;
+    font-size: 2.4rem;
+    margin-bottom: 4rem;
+}
+
+.show{
+    display: flex;
+}

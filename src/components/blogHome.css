@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
 #mainBody{
     width:100vw;
     height:100vh;
@@ -15,6 +17,7 @@
 }
 
 #header span{
+    font-family: 'Young Serif', serif;
     font-weight: bold;
     font-size: 1.2rem;
 }
@@ -41,19 +44,23 @@
 }
 
 #blogHeroH,#blogHeroP{
+    font-family: 'Young Serif', serif;
     color: #e2d9e2;
     font-weight:bold;
 }
 
 #blogHeroH{
-    font-size: 4rem;
+    font-family: 'Young Serif', serif;
+    font-size: 3.3rem;
     width:50%;
     line-height: 90px;
 }
 
 #blogHeroP{
-    font-size: 1.1rem;
+    font-family: 'Young Serif', serif;
+    font-size: 1.3rem;
     line-height: 30px;
+    font-weight: bold;
 }
 
 #blogBody{
@@ -66,9 +73,10 @@
 }
 
 #topics{
+    font-family: 'Young Serif', serif;
     font-size: 1.5rem;
     font-weight: bold;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 #blogsWrapper{
     width:70%;
@@ -87,6 +95,7 @@
     height:33%;
     margin-bottom: 1rem;
     border:0.3px solid rgb(207, 205, 205);
+    background-color: rgb(231, 231, 225);
     cursor: pointer;
     overflow: hidden;
     border-radius: 10px;
@@ -115,18 +124,24 @@
 }
 
 #blogComponentLeftDate{
-font-size: 1.1rem;
-margin-bottom: 2px;
+    color: black;
+    font-family: 'Young Serif', serif;
+    font-size: 1rem;
+    margin-bottom: 2px;
 }
 
 #blogComponentLeftHeader{
-font-size: 1.5rem;
-font-weight: bold;
-margin-bottom: 2px;
+    color: black;
+    font-family: 'Young Serif', serif;
+   font-size: 1.4rem;
+   font-weight: bold;
+   margin-bottom: 2px;
 }
 
 #blogComponentLeftP{
-    font-size: 1.1rem;
+    color: black;
+    font-family: 'Young Serif', serif;
+    font-size: 1rem;
     line-height: 25px;
 }
 
@@ -145,4 +160,26 @@ margin-bottom: 2px;
     width: 100%;
     height: 100%;
     border-radius: 7px;
+}
+
+@media only screen and (max-width: 768px) {
+    #blogHero{
+        height: 60%;
+    }
+    #blogHeroH{
+        text-align: center;
+        font-family: 'Young Serif', serif;
+        font-size: 2rem;
+        width:50%;
+        line-height: 50px;
+    }
+    
+    #blogHeroP{
+        text-align: center;
+        font-family: 'Young Serif', serif;
+        font-size: 1rem;
+        line-height: 30px;
+        font-weight: bold;
+        width: 90%;
+    }
 }

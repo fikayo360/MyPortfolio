@@ -1,55 +1,112 @@
-#navContainer{
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+.navContainer{
     width: 100%;
-    height: 10%;
+    height: 8%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 1rem;
+}
+
+#navMobile{
+    display: none;
 }
 
 #navWrap{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width:80%;
+    width:100%;
 }
 
 #navLeft{
     width: 20%;
 }
 
+#navName{
+    font-family: 'Young Serif', serif;
+    color: rgb(120, 17, 218);
+    font-size: 2rem;
+}
+
 #navRight{
     width:80%;
+}
+
+#navHimgCont{
+    display: none;
 }
 
 #navList{
     display: flex;
     justify-content: space-between;
-    gap: 70px;
+    gap: 90px;
     margin-left:30%;
 }
 
 .navListItems{
+    font-family: 'Young Serif', serif;
     list-style-type: none;
-    font-size: 1.5rem;
     cursor: pointer;
-    color: rgb(120, 17, 218);
     padding-bottom: 5px;
+    font-size: 1.8rem;
 }
 
-.navListItems:active{
+.active{
     font-weight: bold;
     font-size: 1.6rem;
     border-bottom: 2px solid rgb(128, 42, 128);
 }
 
-/* .listClass a:visited{
-    font-weight: bold;
-    font-size: 1.6rem;
-    border-bottom: 2px solid rgb(128, 42, 128);
-} */
+.listClass,#navName{
+    color: rgb(218, 192, 47);
+}
+.listClass:hover{
+    color: rgb(129, 111, 10);
+}
 
-/* .navListItems:hover{
+.navListItems:hover{
     font-weight: bold;
-    font-size: 1.6rem;
     border-bottom: 2px solid rgb(128, 42, 128);
-} */
+}
+
+.hide{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #navContainer{
+        width: 100%;
+        justify-content: space-between;
+        border-bottom: 0.5px solid rgb(170, 37, 148);
+    }
+
+    #navWrap{
+        display: flex;
+    }
+
+    #navList{
+        display: none;
+    }
+
+    #navLeft,#navRight{
+        width: 30%;
+    }
+
+    #navHimgCont{
+        display: block;
+        width: 1.8rem;
+        height: 1.8rem;
+        object-fit: cover;
+        margin-left: 4rem;
+    }
+
+    #navImg{
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
