@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
 #topicWrap{
     display: flex;
     flex-direction: column;
@@ -17,6 +19,11 @@
     padding: 10px;
 }
 
+#topicWrapHeader span{
+    font-size: 1.2rem;
+    font-family: 'Young Serif', serif;
+}
+
 #topicWrapTitles{
     display: flex;
     flex-direction: column;
@@ -30,15 +37,18 @@
 #topicWrapTitles h1{
     font-weight: bold;
     font-size: 5.5rem;
+    font-family: 'Young Serif', serif;
 }
 
 #topicWrapTitles h2{
     font-size: 1.5rem;
+    font-family: 'Young Serif', serif;
 }
 
 #topicheader span{
     font-weight: bold;
     font-size: 1.2rem;
+    font-family: 'Young Serif', serif;
 }
 
 #topicspanner{
@@ -64,6 +74,7 @@
 #topicBody{
     width: 95%;
     font-size: 1.2rem;
+    font-family: 'Young Serif', serif;
     line-height: 30px;
 }
 
@@ -77,4 +88,33 @@
     display: flex;
     justify-content: center;
     width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    #topicWrapTitles h1{
+        text-align: center;
+        font-family: 'Young Serif', serif;
+        color: black;
+        font-weight: bold;
+        font-size: 3.5rem;
+    }
+    
+    #topicWrapTitles h2{
+        font-family: 'Young Serif', serif;
+        font-size: 1.2rem;
+        color: black;
+    }
+
+    #topicBodyContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+    }
+    #topicBody{
+        font-size: 1.2rem;
+        margin-left: 2rem;
+        width: 98%;
+        line-height: 22px;
+    }
 }

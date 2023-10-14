@@ -80,7 +80,6 @@
     #navContainer{
         width: 100%;
         justify-content: space-between;
-        border-bottom: 0.5px solid rgb(170, 37, 148);
     }
 
     #navWrap{

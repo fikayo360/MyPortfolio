@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
 #createWrap{
     display: flex;
     position: relative;
@@ -121,6 +123,8 @@
 }
 
 #createBody h1{
+    font-family: 'Young Serif', serif;
+    color: black;
     margin-bottom: 4rem;
 }
 
@@ -165,4 +169,35 @@
 
 #createBody button:hover{
     background-color: rgb(99, 11, 182);
+ }
+
+ @media only screen and (max-width: 768px) {
+    #authContainer{
+        width: 90%;
+        height: 60%;
+        display: flex;
+        padding-top: 3.5rem;
+        border: 0.5px solid grey;
+        border-radius: 8px;
+        background-color: #ffff;
+        z-index: 8;
+    }
+
+    #createHeader span{
+        font-weight: bold;
+        font-size: 1.3rem;
+        font-family: 'Young Serif', serif;
+    }
+
+    #createBody form{
+        width:100%;
+    }
+
+    #createBody input{
+        width: 80%;
+    }
+    
+    #createBody textarea{
+        width: 80%;
+    }
  }
