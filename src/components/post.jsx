@@ -21,7 +21,7 @@ const Post = ({data}) => {
                         <h1 id="blogComponentLeftHeader"> {data.postTitle} </h1>
                         <p id="blogComponentLeftP">
                         {
-                            truncateText(data.postBody,400)
+                            truncateText(data.postBody,300)
                         }
                         </p>
                     </div>
