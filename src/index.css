@@ -23,13 +23,16 @@ a:hover {
   color: #535bf2;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  scroll-behavior: smooth;
 }
 
 h,h1,h2,h3,h4,h5,h6 {
