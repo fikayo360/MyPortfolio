@@ -138,9 +138,11 @@ height: 550px;
   background-color: rgb(202, 76, 192);
   border-radius: 5px;
 }
+
 #project::-webkit-scrollbar-thumb {
   background-color: rgb(77, 12, 102);
 }
+
 .projectWrap{
   height: 100%;
   width: 90%;
