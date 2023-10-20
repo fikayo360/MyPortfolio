@@ -29,7 +29,7 @@ function Main(){
         <AboutMe/>
         <Projects/>
         <Contact/>
-       </div>
+       </div>       
     )
 }
 
