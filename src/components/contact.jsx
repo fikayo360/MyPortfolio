@@ -19,7 +19,7 @@ function Contact(){
             setSucess(!success)
             setNot('email sent successfully')
             form.current.reset();
-            clear()
+            clear()  
 
         }, (error) => {
             console.log(error.text);
