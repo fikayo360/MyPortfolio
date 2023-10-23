@@ -510,7 +510,7 @@ padding: 10px 0;
   height: 90%;
   justify-content: space-between;
   flex-direction: column;
-  gap:40px;
+  gap:40px; 
   }
   
   #aboutLeft{
