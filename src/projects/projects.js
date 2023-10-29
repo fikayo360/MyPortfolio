@@ -1,4 +1,5 @@
 export const projects = [
+  
     {
         name:'FoodBae',
         description:`FoodBae is a mobile food ordering app created with React Native and Node.js(express). 
@@ -62,5 +63,24 @@ export const projects = [
             "./img/vidme3.jpg",
             "./img/vidme4.jpg",
         ]
+    },
+    {
+        name:'dental plus',
+        description:`
+        Dental Plus is a beautiful and modern landing page for dentists and dental clinics. 
+        It is designed to help showcase dental services, attract new patients, and book appointments online.
+        The landing page features a clean and minimalist design with a focus on high-quality images and videos. It is easy to navigate and mobile-friendly, 
+        so patients can learn more about services and book appointments on the go.
+        `, 
+        coverImg:'./img/dental1.jpg',
+        github:'https://github.com/fikayo360/dentalplus',
+        images:[
+            "./img/dental1.jpg",
+            "./img/dental2.jpg",
+            "./img/dental3.jpg",
+            "./img/dental4.jpg"
+        ],
+        type:'web',
+        url:'http://dentalplus.netlify.app/'
     }
 ]

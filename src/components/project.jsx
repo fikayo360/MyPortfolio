@@ -22,9 +22,18 @@ function Project(){
             {data.description}
             </p>
             <div id='ProjectLinks'>
-            <Link to={data.github} as="div" className='socialIcon'>
-            <img className='socialIconImg' src="./img/github.png" />
-            </Link>
+               
+                <Link to={data.github} as="div" className='socialIcon'>
+                <img className='socialIconImg' src="./img/github.png" />
+                </Link>
+
+                {data.type === 'web'?
+                (
+                <Link to={data.url} as="div" className='socialIcon'>
+                <img className='socialIconImg' src="./img/click.png" />
+                </Link>
+                ):null}
+
            
             </div>
        </div>

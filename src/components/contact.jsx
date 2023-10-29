@@ -6,6 +6,7 @@ function Contact(){
     const [success,setSucess] = useState(false)
     const [notification,setNot] = useState('')
     const form = useRef();
+    
     const clear = () => {
         setTimeout(()=>{
             setNot('')

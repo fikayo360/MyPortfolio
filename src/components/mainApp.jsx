@@ -5,6 +5,7 @@ import Projects from "./projects"
 import Navbar from "./nav"
 import NavMobile from "./navMobile"
 import './appStyles.css'
+import 'animate.css';
 import { useRef } from "react"
 
 function Main(){

@@ -2,15 +2,19 @@ import React, { Suspense } from "react";
 import './appStyles.css'
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
+import { useInView } from 'react-intersection-observer';
 
 function Hero(){
+
+  const [ref, inView] = useInView();
+
     return(
     <div id='hero'>
        
         <div id='heroWrapper'>
         <div id='heroLeft'>
-            <h1 id='heroLeftMaintxt'>
-                FIKAYO
+            <h1 ref={ref} id='heroLeftMaintxt' className={`animate__animated ${inView?'animate__tada':''}`}>
+                ##code monkey
             </h1>
            
             <p id='heroLeftOtherTxt'> 
