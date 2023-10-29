@@ -23,7 +23,7 @@ function Main(){
     }
 
     return ( 
-        <div id='cont'>
+        <div id='cont' style={{backgroundImage:'url(./bg.jpeg)'}} >
         <Navbar showNavMobile={showNavMobile} navContainerRef={navContainerRef}/>
         <NavMobile hideNavMobile={hideNavMobile} navMobileRef={navMobileRef} />
         <Hero/>
