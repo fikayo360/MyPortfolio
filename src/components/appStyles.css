@@ -611,7 +611,7 @@ padding: 10px 0;
     flex-direction: column;
     width:100%;
     height: 80%;
-    gap:50px
+    gap:  100px
   }
   #heroLeft{
     flex:1;
