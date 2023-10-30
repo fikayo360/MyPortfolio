@@ -670,12 +670,12 @@ padding: 10px 0;
     height: 60%;
     justify-content: center;
     align-items: center;
-    margin-bottom: 8rem;
+    margin-bottom: 9rem;
   }
 
   #aboutRightImg{
-    width:320px;
-    height: 320px;
+    width:300px;
+    height: 300px;
     }
   
   #aboutPara{
