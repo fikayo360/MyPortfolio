@@ -611,7 +611,7 @@ padding: 10px 0;
     flex-direction: column;
     width:100%;
     height: 80%;
-    gap:90px
+    gap:50px
   }
   #heroLeft{
     flex:1;
@@ -631,8 +631,8 @@ padding: 10px 0;
     font-size: 1.8rem;
   }
   #heroLeftOtherTxt{
-    font-size: 1.2rem;
-    line-height: 40px;
+    font-size: 1rem;
+    line-height: 30px;
   }
 
   #about{
@@ -648,7 +648,7 @@ padding: 10px 0;
     font-weight: bold;
   }
   #aboutMainTxt{
-    font-size: 2.8rem;
+    font-size: 2.2rem;
     font-weight: bold;
   }
   
@@ -691,6 +691,14 @@ padding: 10px 0;
     padding:0;
   }
 
+  #projectMainTxt{
+    font-size: 2.2rem;
+  }
+
+  #projectName {
+    font-size: 2rem;
+    }
+
   .projectWrap{
     width: 98%;
     flex-direction: column;
@@ -699,8 +707,8 @@ padding: 10px 0;
     overflow-y:auto;
   }
   #projectImgWrap{
-    width: 90%;
-    height: 50%;
+    width: 85%;
+    height: 40%;
     margin-bottom: 40px;
     }
     #projectImgWrap:hover {
