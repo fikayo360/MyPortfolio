@@ -3,7 +3,7 @@ export const projects = [
         name:'Aqua clean',
         description:` a beautiful landing page for a laundry and cleaning service
         `, 
-        coverImg:'./img/dental1.jpg',
+        coverImg:'./img/aqua1.jpg',
         github:'https://github.com/fikayo360/dentalplus',
         images:[
             "./img/aqua1.jpg",
